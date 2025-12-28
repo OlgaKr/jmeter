@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1766939252174,7,GET /characters ,200,OK,Thread Group 1-1,text,true,,448,159,1,1,http://localhost:3001/characters,7,0,2
+1766939252181,4,POST /character,201,Created,Thread Group 1-1,text,true,,275,221,1,1,http://localhost:3001/character,4,0,0
+1766939252185,4,GET /character/7 ,200,OK,Thread Group 1-1,text,true,,270,160,1,1,http://localhost:3001/character/7,4,0,0
+1766939252189,3,PUT /character/7 ,200,OK,Thread Group 1-1,text,true,,270,222,1,1,http://localhost:3001/character/7,3,0,0
+1766939252192,3,DELETE /character/7,200,OK,Thread Group 1-1,text,true,,293,182,3,3,http://localhost:3001/character/7,3,0,0
+1766939252194,5,GET /characters ,200,OK,Thread Group 1-2,text,true,,448,159,2,2,http://localhost:3001/characters,5,0,2
+1766939252195,5,GET /characters ,200,OK,Thread Group 1-3,text,true,,448,159,2,2,http://localhost:3001/characters,5,0,1
+1766939252199,4,POST /character,201,Created,Thread Group 1-2,text,true,,275,221,2,2,http://localhost:3001/character,4,0,0
+1766939252200,4,POST /character,201,Created,Thread Group 1-3,text,true,,275,221,2,2,http://localhost:3001/character,4,0,0
+1766939252204,2,GET /character/7 ,200,OK,Thread Group 1-2,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252205,2,GET /character/8 ,200,OK,Thread Group 1-3,text,true,,270,160,2,2,http://localhost:3001/character/8,2,0,0
+1766939252206,3,PUT /character/7 ,200,OK,Thread Group 1-2,text,true,,270,222,3,3,http://localhost:3001/character/7,3,0,0
+1766939252207,3,PUT /character/8 ,200,OK,Thread Group 1-3,text,true,,270,222,3,3,http://localhost:3001/character/8,3,0,0
+1766939252209,3,DELETE /character/7,200,OK,Thread Group 1-2,text,true,,293,182,3,3,http://localhost:3001/character/7,3,0,0
+1766939252210,3,DELETE /character/8,200,OK,Thread Group 1-3,text,true,,293,182,2,2,http://localhost:3001/character/8,3,0,0
+1766939252209,5,GET /characters ,200,OK,Thread Group 1-4,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,1
+1766939252214,4,POST /character,201,Created,Thread Group 1-4,text,true,,275,221,1,1,http://localhost:3001/character,4,0,0
+1766939252218,3,GET /character/7 ,200,OK,Thread Group 1-4,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252221,3,PUT /character/7 ,200,OK,Thread Group 1-4,text,true,,270,222,3,3,http://localhost:3001/character/7,3,0,0
+1766939252222,4,GET /characters ,200,OK,Thread Group 1-6,text,true,,484,159,3,3,http://localhost:3001/characters,4,0,1
+1766939252224,4,DELETE /character/7,200,OK,Thread Group 1-4,text,true,,293,182,3,3,http://localhost:3001/character/7,3,0,0
+1766939252226,3,POST /character,201,Created,Thread Group 1-6,text,true,,275,221,2,2,http://localhost:3001/character,3,0,0
+1766939252224,5,GET /characters ,200,OK,Thread Group 1-5,text,true,,484,159,2,2,http://localhost:3001/characters,5,0,2
+1766939252229,3,GET /character/7 ,200,OK,Thread Group 1-6,text,true,,270,160,3,3,http://localhost:3001/character/7,3,0,0
+1766939252230,3,POST /character,201,Created,Thread Group 1-5,text,true,,275,221,3,3,http://localhost:3001/character,3,0,0
+1766939252232,3,PUT /character/7 ,200,OK,Thread Group 1-6,text,true,,270,222,3,3,http://localhost:3001/character/7,3,0,0
+1766939252234,2,GET /character/8 ,200,OK,Thread Group 1-5,text,true,,270,160,3,3,http://localhost:3001/character/8,1,0,0
+1766939252232,4,GET /characters ,200,OK,Thread Group 1-7,text,true,,521,159,3,3,http://localhost:3001/characters,4,0,1
+1766939252236,2,PUT /character/8 ,200,OK,Thread Group 1-5,text,true,,270,222,3,3,http://localhost:3001/character/8,2,0,0
+1766939252236,3,DELETE /character/7,200,OK,Thread Group 1-6,text,true,,293,182,3,3,http://localhost:3001/character/7,3,0,0
+1766939252237,4,POST /character,201,Created,Thread Group 1-7,text,true,,275,221,2,2,http://localhost:3001/character,4,0,0
+1766939252238,4,DELETE /character/8,200,OK,Thread Group 1-5,text,true,,293,182,3,3,http://localhost:3001/character/8,4,0,0
+1766939252241,2,GET /character/8 ,200,OK,Thread Group 1-7,text,true,,270,160,2,2,http://localhost:3001/character/8,2,0,0
+1766939252241,4,GET /characters ,200,OK,Thread Group 1-8,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252244,3,PUT /character/8 ,200,OK,Thread Group 1-7,text,true,,270,222,2,2,http://localhost:3001/character/8,3,0,0
+1766939252245,3,POST /character,201,Created,Thread Group 1-8,text,true,,275,221,2,2,http://localhost:3001/character,3,0,0
+1766939252247,2,DELETE /character/8,200,OK,Thread Group 1-7,text,true,,293,182,2,2,http://localhost:3001/character/8,2,0,0
+1766939252249,3,GET /character/8 ,200,OK,Thread Group 1-8,text,true,,270,160,2,2,http://localhost:3001/character/8,3,0,0
+1766939252252,4,PUT /character/8 ,200,OK,Thread Group 1-8,text,true,,270,222,2,2,http://localhost:3001/character/8,4,0,0
+1766939252251,5,GET /characters ,200,OK,Thread Group 1-9,text,true,,484,159,2,2,http://localhost:3001/characters,5,0,2
+1766939252256,3,DELETE /character/8,200,OK,Thread Group 1-8,text,true,,293,182,2,2,http://localhost:3001/character/8,3,0,0
+1766939252257,3,POST /character,201,Created,Thread Group 1-9,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252261,2,GET /character/7 ,200,OK,Thread Group 1-9,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252261,3,GET /characters ,200,OK,Thread Group 1-10,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252264,2,PUT /character/7 ,200,OK,Thread Group 1-9,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252265,2,POST /character,201,Created,Thread Group 1-10,text,true,,275,221,2,2,http://localhost:3001/character,2,0,0
+1766939252266,3,DELETE /character/7,200,OK,Thread Group 1-9,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252267,2,GET /character/8 ,200,OK,Thread Group 1-10,text,true,,270,160,2,2,http://localhost:3001/character/8,2,0,0
+1766939252270,3,PUT /character/8 ,200,OK,Thread Group 1-10,text,true,,270,222,2,2,http://localhost:3001/character/8,3,0,0
+1766939252273,2,DELETE /character/8,200,OK,Thread Group 1-10,text,true,,293,182,2,2,http://localhost:3001/character/8,2,0,0
+1766939252273,3,GET /characters ,200,OK,Thread Group 1-11,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252277,3,POST /character,201,Created,Thread Group 1-11,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252280,3,GET /character/7 ,200,OK,Thread Group 1-11,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252283,3,PUT /character/7 ,200,OK,Thread Group 1-11,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252282,5,GET /characters ,200,OK,Thread Group 1-12,text,true,,484,159,2,2,http://localhost:3001/characters,5,0,1
+1766939252286,4,DELETE /character/7,200,OK,Thread Group 1-11,text,true,,293,182,2,2,http://localhost:3001/character/7,4,0,0
+1766939252287,4,POST /character,201,Created,Thread Group 1-12,text,true,,275,221,1,1,http://localhost:3001/character,4,0,0
+1766939252292,2,GET /character/7 ,200,OK,Thread Group 1-12,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252294,2,PUT /character/7 ,200,OK,Thread Group 1-12,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252293,3,GET /characters ,200,OK,Thread Group 1-13,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252296,2,DELETE /character/7,200,OK,Thread Group 1-12,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252296,2,POST /character,201,Created,Thread Group 1-13,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252298,2,GET /character/7 ,200,OK,Thread Group 1-13,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252300,3,PUT /character/7 ,200,OK,Thread Group 1-13,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252302,5,GET /characters ,200,OK,Thread Group 1-14,text,true,,484,159,2,2,http://localhost:3001/characters,5,0,1
+1766939252304,4,DELETE /character/7,200,OK,Thread Group 1-13,text,true,,293,182,2,2,http://localhost:3001/character/7,4,0,0
+1766939252307,2,POST /character,201,Created,Thread Group 1-14,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252310,1,GET /character/7 ,200,OK,Thread Group 1-14,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252312,2,PUT /character/7 ,200,OK,Thread Group 1-14,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252314,3,DELETE /character/7,200,OK,Thread Group 1-14,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252313,5,GET /characters ,200,OK,Thread Group 1-15,text,true,,448,159,2,2,http://localhost:3001/characters,5,0,0
+1766939252318,3,POST /character,201,Created,Thread Group 1-15,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252321,2,GET /character/7 ,200,OK,Thread Group 1-15,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252324,1,PUT /character/7 ,200,OK,Thread Group 1-15,text,true,,270,222,2,2,http://localhost:3001/character/7,1,0,0
+1766939252322,3,GET /characters ,200,OK,Thread Group 1-16,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252325,2,DELETE /character/7,200,OK,Thread Group 1-15,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252326,1,POST /character,201,Created,Thread Group 1-16,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252328,1,GET /character/7 ,200,OK,Thread Group 1-16,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252330,2,PUT /character/7 ,200,OK,Thread Group 1-16,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252332,4,DELETE /character/7,200,OK,Thread Group 1-16,text,true,,293,182,2,2,http://localhost:3001/character/7,4,0,0
+1766939252332,4,GET /characters ,200,OK,Thread Group 1-17,text,true,,448,159,2,2,http://localhost:3001/characters,4,0,2
+1766939252337,2,POST /character,201,Created,Thread Group 1-17,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252339,1,GET /character/7 ,200,OK,Thread Group 1-17,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252340,2,PUT /character/7 ,200,OK,Thread Group 1-17,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939252342,2,DELETE /character/7,200,OK,Thread Group 1-17,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252342,3,GET /characters ,200,OK,Thread Group 1-18,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252346,2,POST /character,201,Created,Thread Group 1-18,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252349,2,GET /character/7 ,200,OK,Thread Group 1-18,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252352,2,PUT /character/7 ,200,OK,Thread Group 1-18,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252352,4,GET /characters ,200,OK,Thread Group 1-19,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252355,2,DELETE /character/7,200,OK,Thread Group 1-18,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252357,3,POST /character,201,Created,Thread Group 1-19,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252360,2,GET /character/7 ,200,OK,Thread Group 1-19,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252363,3,PUT /character/7 ,200,OK,Thread Group 1-19,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252364,4,GET /characters ,200,OK,Thread Group 1-20,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252366,3,DELETE /character/7,200,OK,Thread Group 1-19,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252368,2,POST /character,201,Created,Thread Group 1-20,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252371,2,GET /character/7 ,200,OK,Thread Group 1-20,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252373,2,PUT /character/7 ,200,OK,Thread Group 1-20,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252372,4,GET /characters ,200,OK,Thread Group 1-21,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,2
+1766939252376,2,DELETE /character/7,200,OK,Thread Group 1-20,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252377,2,POST /character,201,Created,Thread Group 1-21,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252380,2,GET /character/7 ,200,OK,Thread Group 1-21,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252382,2,PUT /character/7 ,200,OK,Thread Group 1-21,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252382,3,GET /characters ,200,OK,Thread Group 1-22,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252384,2,DELETE /character/7,200,OK,Thread Group 1-21,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252385,1,POST /character,201,Created,Thread Group 1-22,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252387,2,GET /character/7 ,200,OK,Thread Group 1-22,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252389,2,PUT /character/7 ,200,OK,Thread Group 1-22,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252391,3,DELETE /character/7,200,OK,Thread Group 1-22,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252392,4,GET /characters ,200,OK,Thread Group 1-23,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252396,1,POST /character,201,Created,Thread Group 1-23,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252398,1,GET /character/7 ,200,OK,Thread Group 1-23,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252400,2,PUT /character/7 ,200,OK,Thread Group 1-23,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252402,4,DELETE /character/7,200,OK,Thread Group 1-23,text,true,,293,182,2,2,http://localhost:3001/character/7,4,0,0
+1766939252402,5,GET /characters ,200,OK,Thread Group 1-24,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,1
+1766939252408,3,POST /character,201,Created,Thread Group 1-24,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252412,2,GET /character/7 ,200,OK,Thread Group 1-24,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252412,3,GET /characters ,200,OK,Thread Group 1-25,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252414,3,PUT /character/7 ,200,OK,Thread Group 1-24,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252415,2,POST /character,201,Created,Thread Group 1-25,text,true,,275,221,2,2,http://localhost:3001/character,2,0,0
+1766939252417,2,DELETE /character/7,200,OK,Thread Group 1-24,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252418,1,GET /character/8 ,200,OK,Thread Group 1-25,text,true,,270,160,2,2,http://localhost:3001/character/8,1,0,0
+1766939252419,3,PUT /character/8 ,200,OK,Thread Group 1-25,text,true,,270,222,1,1,http://localhost:3001/character/8,3,0,0
+1766939252422,2,DELETE /character/8,200,OK,Thread Group 1-25,text,true,,293,182,2,2,http://localhost:3001/character/8,2,0,0
+1766939252422,4,GET /characters ,200,OK,Thread Group 1-26,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252426,2,POST /character,201,Created,Thread Group 1-26,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252429,2,GET /character/7 ,200,OK,Thread Group 1-26,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252431,2,PUT /character/7 ,200,OK,Thread Group 1-26,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252434,3,DELETE /character/7,200,OK,Thread Group 1-26,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252433,5,GET /characters ,200,OK,Thread Group 1-27,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,1
+1766939252438,3,POST /character,201,Created,Thread Group 1-27,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252441,3,GET /character/7 ,200,OK,Thread Group 1-27,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252444,2,PUT /character/7 ,200,OK,Thread Group 1-27,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252442,4,GET /characters ,200,OK,Thread Group 1-28,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252446,1,POST /character,201,Created,Thread Group 1-28,text,true,,275,221,2,2,http://localhost:3001/character,1,0,0
+1766939252446,2,DELETE /character/7,200,OK,Thread Group 1-27,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252448,1,GET /character/8 ,200,OK,Thread Group 1-28,text,true,,270,160,1,1,http://localhost:3001/character/8,1,0,0
+1766939252450,3,PUT /character/8 ,200,OK,Thread Group 1-28,text,true,,270,222,2,2,http://localhost:3001/character/8,3,0,0
+1766939252451,4,GET /characters ,200,OK,Thread Group 1-29,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252454,1,DELETE /character/8,200,OK,Thread Group 1-28,text,true,,293,182,2,2,http://localhost:3001/character/8,1,0,0
+1766939252455,3,POST /character,201,Created,Thread Group 1-29,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252458,2,GET /character/7 ,200,OK,Thread Group 1-29,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252460,2,PUT /character/7 ,200,OK,Thread Group 1-29,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252461,3,GET /characters ,200,OK,Thread Group 1-30,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,0
+1766939252463,1,DELETE /character/7,200,OK,Thread Group 1-29,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252464,3,POST /character,201,Created,Thread Group 1-30,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252468,2,GET /character/7 ,200,OK,Thread Group 1-30,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252470,3,PUT /character/7 ,200,OK,Thread Group 1-30,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252471,4,GET /characters ,200,OK,Thread Group 1-31,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252473,2,DELETE /character/7,200,OK,Thread Group 1-30,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252475,2,POST /character,201,Created,Thread Group 1-31,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252478,2,GET /character/7 ,200,OK,Thread Group 1-31,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252480,1,PUT /character/7 ,200,OK,Thread Group 1-31,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939252481,2,DELETE /character/7,200,OK,Thread Group 1-31,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252482,4,GET /characters ,200,OK,Thread Group 1-32,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252486,3,POST /character,201,Created,Thread Group 1-32,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252489,2,GET /character/7 ,200,OK,Thread Group 1-32,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252492,2,PUT /character/7 ,200,OK,Thread Group 1-32,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252491,3,GET /characters ,200,OK,Thread Group 1-33,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252494,2,DELETE /character/7,200,OK,Thread Group 1-32,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252494,2,POST /character,201,Created,Thread Group 1-33,text,true,,275,221,2,2,http://localhost:3001/character,2,0,0
+1766939252496,2,GET /character/7 ,200,OK,Thread Group 1-33,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252499,4,PUT /character/7 ,200,OK,Thread Group 1-33,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252503,2,DELETE /character/7,200,OK,Thread Group 1-33,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252501,5,GET /characters ,200,OK,Thread Group 1-34,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,1
+1766939252506,2,POST /character,201,Created,Thread Group 1-34,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252508,2,GET /character/7 ,200,OK,Thread Group 1-34,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252510,1,PUT /character/7 ,200,OK,Thread Group 1-34,text,true,,270,222,2,2,http://localhost:3001/character/7,1,0,0
+1766939252511,2,DELETE /character/7,200,OK,Thread Group 1-34,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252511,2,GET /characters ,200,OK,Thread Group 1-35,text,true,,448,159,2,2,http://localhost:3001/characters,2,0,1
+1766939252513,2,POST /character,201,Created,Thread Group 1-35,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252515,2,GET /character/7 ,200,OK,Thread Group 1-35,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252517,2,PUT /character/7 ,200,OK,Thread Group 1-35,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939252519,2,DELETE /character/7,200,OK,Thread Group 1-35,text,true,,293,182,1,1,http://localhost:3001/character/7,2,0,0
+1766939252521,3,GET /characters ,200,OK,Thread Group 1-36,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252524,2,POST /character,201,Created,Thread Group 1-36,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252526,2,GET /character/7 ,200,OK,Thread Group 1-36,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252528,1,PUT /character/7 ,200,OK,Thread Group 1-36,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939252529,1,DELETE /character/7,200,OK,Thread Group 1-36,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252531,3,GET /characters ,200,OK,Thread Group 1-37,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252535,2,POST /character,201,Created,Thread Group 1-37,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252537,2,GET /character/7 ,200,OK,Thread Group 1-37,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252539,3,PUT /character/7 ,200,OK,Thread Group 1-37,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252542,2,DELETE /character/7,200,OK,Thread Group 1-37,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252542,3,GET /characters ,200,OK,Thread Group 1-38,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252545,2,POST /character,201,Created,Thread Group 1-38,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252548,1,GET /character/7 ,200,OK,Thread Group 1-38,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252549,3,PUT /character/7 ,200,OK,Thread Group 1-38,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252552,2,DELETE /character/7,200,OK,Thread Group 1-38,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252551,4,GET /characters ,200,OK,Thread Group 1-39,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252555,2,POST /character,201,Created,Thread Group 1-39,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252558,2,GET /character/7 ,200,OK,Thread Group 1-39,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252560,2,PUT /character/7 ,200,OK,Thread Group 1-39,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252563,2,DELETE /character/7,200,OK,Thread Group 1-39,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252562,4,GET /characters ,200,OK,Thread Group 1-40,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252566,4,POST /character,201,Created,Thread Group 1-40,text,true,,275,221,1,1,http://localhost:3001/character,4,0,0
+1766939252571,2,GET /character/7 ,200,OK,Thread Group 1-40,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252572,3,GET /characters ,200,OK,Thread Group 1-41,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,0
+1766939252573,4,PUT /character/7 ,200,OK,Thread Group 1-40,text,true,,270,222,2,2,http://localhost:3001/character/7,4,0,0
+1766939252576,2,POST /character,201,Created,Thread Group 1-41,text,true,,275,221,2,2,http://localhost:3001/character,2,0,0
+1766939252577,2,DELETE /character/7,200,OK,Thread Group 1-40,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252578,3,GET /character/8 ,200,OK,Thread Group 1-41,text,true,,270,160,1,1,http://localhost:3001/character/8,3,0,0
+1766939252581,3,PUT /character/8 ,200,OK,Thread Group 1-41,text,true,,270,222,2,2,http://localhost:3001/character/8,3,0,0
+1766939252582,3,GET /characters ,200,OK,Thread Group 1-42,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252584,2,DELETE /character/8,200,OK,Thread Group 1-41,text,true,,293,182,2,2,http://localhost:3001/character/8,2,0,0
+1766939252585,2,POST /character,201,Created,Thread Group 1-42,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252588,2,GET /character/7 ,200,OK,Thread Group 1-42,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252590,3,PUT /character/7 ,200,OK,Thread Group 1-42,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252593,3,DELETE /character/7,200,OK,Thread Group 1-42,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252591,5,GET /characters ,200,OK,Thread Group 1-43,text,true,,448,159,2,2,http://localhost:3001/characters,5,0,1
+1766939252596,2,POST /character,201,Created,Thread Group 1-43,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252598,2,GET /character/7 ,200,OK,Thread Group 1-43,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252600,2,PUT /character/7 ,200,OK,Thread Group 1-43,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252602,3,DELETE /character/7,200,OK,Thread Group 1-43,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252602,4,GET /characters ,200,OK,Thread Group 1-44,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252607,2,POST /character,201,Created,Thread Group 1-44,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252610,3,GET /character/7 ,200,OK,Thread Group 1-44,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252613,3,PUT /character/7 ,200,OK,Thread Group 1-44,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252612,4,GET /characters ,200,OK,Thread Group 1-45,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252616,2,DELETE /character/7,200,OK,Thread Group 1-44,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252616,2,POST /character,201,Created,Thread Group 1-45,text,true,,275,221,2,2,http://localhost:3001/character,2,0,0
+1766939252619,2,GET /character/7 ,200,OK,Thread Group 1-45,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252621,3,PUT /character/7 ,200,OK,Thread Group 1-45,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252621,4,GET /characters ,200,OK,Thread Group 1-46,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252624,3,DELETE /character/7,200,OK,Thread Group 1-45,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252625,3,POST /character,201,Created,Thread Group 1-46,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252628,3,GET /character/7 ,200,OK,Thread Group 1-46,text,true,,270,160,1,1,http://localhost:3001/character/7,3,0,0
+1766939252631,2,PUT /character/7 ,200,OK,Thread Group 1-46,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252634,3,DELETE /character/7,200,OK,Thread Group 1-46,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252633,4,GET /characters ,200,OK,Thread Group 1-47,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252637,3,POST /character,201,Created,Thread Group 1-47,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252640,2,GET /character/7 ,200,OK,Thread Group 1-47,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252643,2,PUT /character/7 ,200,OK,Thread Group 1-47,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252643,3,GET /characters ,200,OK,Thread Group 1-48,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,0
+1766939252645,2,DELETE /character/7,200,OK,Thread Group 1-47,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252646,1,POST /character,201,Created,Thread Group 1-48,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252648,2,GET /character/7 ,200,OK,Thread Group 1-48,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252650,3,PUT /character/7 ,200,OK,Thread Group 1-48,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252653,3,DELETE /character/7,200,OK,Thread Group 1-48,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252653,3,GET /characters ,200,OK,Thread Group 1-49,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252657,2,POST /character,201,Created,Thread Group 1-49,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252659,2,GET /character/7 ,200,OK,Thread Group 1-49,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252661,1,PUT /character/7 ,200,OK,Thread Group 1-49,text,true,,270,222,2,2,http://localhost:3001/character/7,1,0,0
+1766939252663,2,DELETE /character/7,200,OK,Thread Group 1-49,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252663,4,GET /characters ,200,OK,Thread Group 1-50,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252667,3,POST /character,201,Created,Thread Group 1-50,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252671,2,GET /character/7 ,200,OK,Thread Group 1-50,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252673,2,PUT /character/7 ,200,OK,Thread Group 1-50,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252672,4,GET /characters ,200,OK,Thread Group 1-51,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252676,1,DELETE /character/7,200,OK,Thread Group 1-50,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252676,2,POST /character,201,Created,Thread Group 1-51,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252678,2,GET /character/7 ,200,OK,Thread Group 1-51,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252680,3,PUT /character/7 ,200,OK,Thread Group 1-51,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252681,4,GET /characters ,200,OK,Thread Group 1-52,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252683,3,DELETE /character/7,200,OK,Thread Group 1-51,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252685,3,POST /character,201,Created,Thread Group 1-52,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252688,2,GET /character/7 ,200,OK,Thread Group 1-52,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252690,2,PUT /character/7 ,200,OK,Thread Group 1-52,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252693,2,DELETE /character/7,200,OK,Thread Group 1-52,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252692,4,GET /characters ,200,OK,Thread Group 1-53,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252696,2,POST /character,201,Created,Thread Group 1-53,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252698,3,GET /character/7 ,200,OK,Thread Group 1-53,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252701,3,PUT /character/7 ,200,OK,Thread Group 1-53,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252701,4,GET /characters ,200,OK,Thread Group 1-54,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252704,1,DELETE /character/7,200,OK,Thread Group 1-53,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252705,1,POST /character,201,Created,Thread Group 1-54,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252706,3,GET /character/7 ,200,OK,Thread Group 1-54,text,true,,270,160,1,1,http://localhost:3001/character/7,3,0,0
+1766939252709,2,PUT /character/7 ,200,OK,Thread Group 1-54,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252712,2,DELETE /character/7,200,OK,Thread Group 1-54,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252712,4,GET /characters ,200,OK,Thread Group 1-55,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252716,3,POST /character,201,Created,Thread Group 1-55,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252719,2,GET /character/7 ,200,OK,Thread Group 1-55,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252722,2,PUT /character/7 ,200,OK,Thread Group 1-55,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252722,4,GET /characters ,200,OK,Thread Group 1-56,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252724,2,DELETE /character/7,200,OK,Thread Group 1-55,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252726,2,POST /character,201,Created,Thread Group 1-56,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252729,2,GET /character/7 ,200,OK,Thread Group 1-56,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252731,3,PUT /character/7 ,200,OK,Thread Group 1-56,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252731,4,GET /characters ,200,OK,Thread Group 1-57,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,2
+1766939252735,2,DELETE /character/7,200,OK,Thread Group 1-56,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252736,2,POST /character,201,Created,Thread Group 1-57,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252738,2,GET /character/7 ,200,OK,Thread Group 1-57,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252740,3,PUT /character/7 ,200,OK,Thread Group 1-57,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252740,4,GET /characters ,200,OK,Thread Group 1-58,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252744,2,DELETE /character/7,200,OK,Thread Group 1-57,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252744,3,POST /character,201,Created,Thread Group 1-58,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252747,2,GET /character/7 ,200,OK,Thread Group 1-58,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252749,2,PUT /character/7 ,200,OK,Thread Group 1-58,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252752,2,DELETE /character/7,200,OK,Thread Group 1-58,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252752,3,GET /characters ,200,OK,Thread Group 1-59,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,0
+1766939252755,3,POST /character,201,Created,Thread Group 1-59,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252759,2,GET /character/7 ,200,OK,Thread Group 1-59,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252761,2,PUT /character/7 ,200,OK,Thread Group 1-59,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252761,3,GET /characters ,200,OK,Thread Group 1-60,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252763,2,DELETE /character/7,200,OK,Thread Group 1-59,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252765,2,POST /character,201,Created,Thread Group 1-60,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252767,3,GET /character/7 ,200,OK,Thread Group 1-60,text,true,,270,160,1,1,http://localhost:3001/character/7,3,0,0
+1766939252770,3,PUT /character/7 ,200,OK,Thread Group 1-60,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252773,3,DELETE /character/7,200,OK,Thread Group 1-60,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252772,5,GET /characters ,200,OK,Thread Group 1-61,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,2
+1766939252781,4,GET /characters ,200,OK,Thread Group 1-62,text,true,,448,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252785,3,POST /character,201,Created,Thread Group 1-61,text,true,,275,221,2,2,http://localhost:3001/character,3,0,0
+1766939252785,3,POST /character,201,Created,Thread Group 1-62,text,true,,275,221,2,2,http://localhost:3001/character,3,0,0
+1766939252788,2,GET /character/8 ,200,OK,Thread Group 1-62,text,true,,270,160,2,2,http://localhost:3001/character/8,2,0,0
+1766939252788,2,GET /character/7 ,200,OK,Thread Group 1-61,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252790,3,PUT /character/8 ,200,OK,Thread Group 1-62,text,true,,270,222,3,3,http://localhost:3001/character/8,3,0,0
+1766939252791,2,PUT /character/7 ,200,OK,Thread Group 1-61,text,true,,270,222,3,3,http://localhost:3001/character/7,2,0,0
+1766939252793,2,DELETE /character/8,200,OK,Thread Group 1-62,text,true,,293,182,3,3,http://localhost:3001/character/8,2,0,0
+1766939252794,2,DELETE /character/7,200,OK,Thread Group 1-61,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252793,3,GET /characters ,200,OK,Thread Group 1-63,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252797,2,POST /character,201,Created,Thread Group 1-63,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252799,3,GET /character/7 ,200,OK,Thread Group 1-63,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252802,3,PUT /character/7 ,200,OK,Thread Group 1-63,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252802,3,GET /characters ,200,OK,Thread Group 1-64,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,0
+1766939252805,2,DELETE /character/7,200,OK,Thread Group 1-63,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252806,2,POST /character,201,Created,Thread Group 1-64,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252808,2,GET /character/7 ,200,OK,Thread Group 1-64,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252810,3,PUT /character/7 ,200,OK,Thread Group 1-64,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252811,4,GET /characters ,200,OK,Thread Group 1-65,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252813,3,DELETE /character/7,200,OK,Thread Group 1-64,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252815,3,POST /character,201,Created,Thread Group 1-65,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252818,2,GET /character/7 ,200,OK,Thread Group 1-65,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252820,3,PUT /character/7 ,200,OK,Thread Group 1-65,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252821,3,GET /characters ,200,OK,Thread Group 1-66,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252823,2,DELETE /character/7,200,OK,Thread Group 1-65,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252825,1,POST /character,201,Created,Thread Group 1-66,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252827,1,GET /character/7 ,200,OK,Thread Group 1-66,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252829,1,PUT /character/7 ,200,OK,Thread Group 1-66,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939252830,5,DELETE /character/7,200,OK,Thread Group 1-66,text,true,,293,182,2,2,http://localhost:3001/character/7,5,0,0
+1766939252831,5,GET /characters ,200,OK,Thread Group 1-67,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,1
+1766939252836,2,POST /character,201,Created,Thread Group 1-67,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252839,2,GET /character/7 ,200,OK,Thread Group 1-67,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252841,3,PUT /character/7 ,200,OK,Thread Group 1-67,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252844,2,DELETE /character/7,200,OK,Thread Group 1-67,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252842,5,GET /characters ,200,OK,Thread Group 1-68,text,true,,448,159,2,2,http://localhost:3001/characters,5,0,1
+1766939252847,4,POST /character,201,Created,Thread Group 1-68,text,true,,275,221,1,1,http://localhost:3001/character,4,0,0
+1766939252852,2,GET /character/7 ,200,OK,Thread Group 1-68,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252852,4,GET /characters ,200,OK,Thread Group 1-69,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252854,3,PUT /character/7 ,200,OK,Thread Group 1-68,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252856,2,POST /character,201,Created,Thread Group 1-69,text,true,,275,221,2,2,http://localhost:3001/character,2,0,0
+1766939252857,1,DELETE /character/7,200,OK,Thread Group 1-68,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252858,2,GET /character/8 ,200,OK,Thread Group 1-69,text,true,,270,160,1,1,http://localhost:3001/character/8,2,0,0
+1766939252860,3,PUT /character/8 ,200,OK,Thread Group 1-69,text,true,,270,222,2,2,http://localhost:3001/character/8,3,0,0
+1766939252863,2,DELETE /character/8,200,OK,Thread Group 1-69,text,true,,293,182,2,2,http://localhost:3001/character/8,2,0,0
+1766939252862,3,GET /characters ,200,OK,Thread Group 1-70,text,true,,448,159,2,2,http://localhost:3001/characters,3,0,0
+1766939252865,3,POST /character,201,Created,Thread Group 1-70,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252868,2,GET /character/7 ,200,OK,Thread Group 1-70,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252870,1,PUT /character/7 ,200,OK,Thread Group 1-70,text,true,,270,222,2,2,http://localhost:3001/character/7,1,0,0
+1766939252871,2,DELETE /character/7,200,OK,Thread Group 1-70,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252871,4,GET /characters ,200,OK,Thread Group 1-71,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939252875,2,POST /character,201,Created,Thread Group 1-71,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252878,1,GET /character/7 ,200,OK,Thread Group 1-71,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252879,3,PUT /character/7 ,200,OK,Thread Group 1-71,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252882,3,DELETE /character/7,200,OK,Thread Group 1-71,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252881,5,GET /characters ,200,OK,Thread Group 1-72,text,true,,448,159,1,1,http://localhost:3001/characters,5,0,1
+1766939252887,2,POST /character,201,Created,Thread Group 1-72,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252889,2,GET /character/7 ,200,OK,Thread Group 1-72,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252891,3,PUT /character/7 ,200,OK,Thread Group 1-72,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252894,2,DELETE /character/7,200,OK,Thread Group 1-72,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252892,4,GET /characters ,200,OK,Thread Group 1-73,text,true,,448,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252896,3,POST /character,201,Created,Thread Group 1-73,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252899,3,GET /character/7 ,200,OK,Thread Group 1-73,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252902,2,PUT /character/7 ,200,OK,Thread Group 1-73,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252901,4,GET /characters ,200,OK,Thread Group 1-74,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252905,1,DELETE /character/7,200,OK,Thread Group 1-73,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252905,2,POST /character,201,Created,Thread Group 1-74,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252907,2,GET /character/7 ,200,OK,Thread Group 1-74,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252909,2,PUT /character/7 ,200,OK,Thread Group 1-74,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252911,3,DELETE /character/7,200,OK,Thread Group 1-74,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252912,3,GET /characters ,200,OK,Thread Group 1-75,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252915,3,POST /character,201,Created,Thread Group 1-75,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252919,2,GET /character/7 ,200,OK,Thread Group 1-75,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252921,3,PUT /character/7 ,200,OK,Thread Group 1-75,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252922,3,GET /characters ,200,OK,Thread Group 1-76,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939252924,2,DELETE /character/7,200,OK,Thread Group 1-75,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252926,2,POST /character,201,Created,Thread Group 1-76,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252929,1,GET /character/7 ,200,OK,Thread Group 1-76,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252931,2,PUT /character/7 ,200,OK,Thread Group 1-76,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252931,4,GET /characters ,200,OK,Thread Group 1-77,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252934,1,DELETE /character/7,200,OK,Thread Group 1-76,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939252935,1,POST /character,201,Created,Thread Group 1-77,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939252937,2,GET /character/7 ,200,OK,Thread Group 1-77,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252939,2,PUT /character/7 ,200,OK,Thread Group 1-77,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939252942,3,DELETE /character/7,200,OK,Thread Group 1-77,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252943,3,GET /characters ,200,OK,Thread Group 1-78,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252946,3,POST /character,201,Created,Thread Group 1-78,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252949,3,GET /character/7 ,200,OK,Thread Group 1-78,text,true,,270,160,2,2,http://localhost:3001/character/7,3,0,0
+1766939252952,3,PUT /character/7 ,200,OK,Thread Group 1-78,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252952,4,GET /characters ,200,OK,Thread Group 1-79,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252955,3,DELETE /character/7,200,OK,Thread Group 1-78,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252956,3,POST /character,201,Created,Thread Group 1-79,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252959,2,GET /character/7 ,200,OK,Thread Group 1-79,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939252962,2,PUT /character/7 ,200,OK,Thread Group 1-79,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252962,4,GET /characters ,200,OK,Thread Group 1-80,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252964,4,DELETE /character/7,200,OK,Thread Group 1-79,text,true,,293,182,2,2,http://localhost:3001/character/7,4,0,0
+1766939252966,3,POST /character,201,Created,Thread Group 1-80,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939252970,2,GET /character/7 ,200,OK,Thread Group 1-80,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252972,3,PUT /character/7 ,200,OK,Thread Group 1-80,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252972,4,GET /characters ,200,OK,Thread Group 1-81,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939252975,2,DELETE /character/7,200,OK,Thread Group 1-80,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252976,2,POST /character,201,Created,Thread Group 1-81,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252979,1,GET /character/7 ,200,OK,Thread Group 1-81,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939252980,2,PUT /character/7 ,200,OK,Thread Group 1-81,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939252982,3,DELETE /character/7,200,OK,Thread Group 1-81,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939252983,3,GET /characters ,200,OK,Thread Group 1-82,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939252986,2,POST /character,201,Created,Thread Group 1-82,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252989,2,GET /character/7 ,200,OK,Thread Group 1-82,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939252991,3,PUT /character/7 ,200,OK,Thread Group 1-82,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939252991,5,GET /characters ,200,OK,Thread Group 1-83,text,true,,484,159,2,2,http://localhost:3001/characters,5,0,1
+1766939252994,2,DELETE /character/7,200,OK,Thread Group 1-82,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939252996,2,POST /character,201,Created,Thread Group 1-83,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939252999,2,GET /character/7 ,200,OK,Thread Group 1-83,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939253001,4,PUT /character/7 ,200,OK,Thread Group 1-83,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939253002,4,GET /characters ,200,OK,Thread Group 1-84,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,1
+1766939253005,1,DELETE /character/7,200,OK,Thread Group 1-83,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939253006,2,POST /character,201,Created,Thread Group 1-84,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253008,2,GET /character/7 ,200,OK,Thread Group 1-84,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939253010,2,PUT /character/7 ,200,OK,Thread Group 1-84,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939253012,1,DELETE /character/7,200,OK,Thread Group 1-84,text,true,,293,182,2,2,http://localhost:3001/character/7,1,0,0
+1766939253011,3,GET /characters ,200,OK,Thread Group 1-85,text,true,,448,159,2,2,http://localhost:3001/characters,3,0,1
+1766939253014,1,POST /character,201,Created,Thread Group 1-85,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939253015,1,GET /character/7 ,200,OK,Thread Group 1-85,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253017,1,PUT /character/7 ,200,OK,Thread Group 1-85,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939253019,1,DELETE /character/7,200,OK,Thread Group 1-85,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253021,3,GET /characters ,200,OK,Thread Group 1-86,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939253024,1,POST /character,201,Created,Thread Group 1-86,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939253026,1,GET /character/7 ,200,OK,Thread Group 1-86,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253027,1,PUT /character/7 ,200,OK,Thread Group 1-86,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939253028,1,DELETE /character/7,200,OK,Thread Group 1-86,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253031,3,GET /characters ,200,OK,Thread Group 1-87,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939253034,1,POST /character,201,Created,Thread Group 1-87,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939253036,1,GET /character/7 ,200,OK,Thread Group 1-87,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253037,1,PUT /character/7 ,200,OK,Thread Group 1-87,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939253038,1,DELETE /character/7,200,OK,Thread Group 1-87,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253041,3,GET /characters ,200,OK,Thread Group 1-88,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939253044,1,POST /character,201,Created,Thread Group 1-88,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939253046,1,GET /character/7 ,200,OK,Thread Group 1-88,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253047,2,PUT /character/7 ,200,OK,Thread Group 1-88,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939253049,1,DELETE /character/7,200,OK,Thread Group 1-88,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253052,3,GET /characters ,200,OK,Thread Group 1-89,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939253055,2,POST /character,201,Created,Thread Group 1-89,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253057,1,GET /character/7 ,200,OK,Thread Group 1-89,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253058,2,PUT /character/7 ,200,OK,Thread Group 1-89,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939253060,1,DELETE /character/7,200,OK,Thread Group 1-89,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253063,2,GET /characters ,200,OK,Thread Group 1-90,text,true,,448,159,1,1,http://localhost:3001/characters,2,0,1
+1766939253066,1,POST /character,201,Created,Thread Group 1-90,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939253068,1,GET /character/7 ,200,OK,Thread Group 1-90,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253069,1,PUT /character/7 ,200,OK,Thread Group 1-90,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939253070,2,DELETE /character/7,200,OK,Thread Group 1-90,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939253072,2,GET /characters ,200,OK,Thread Group 1-91,text,true,,448,159,1,1,http://localhost:3001/characters,2,0,0
+1766939253074,2,POST /character,201,Created,Thread Group 1-91,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253076,1,GET /character/7 ,200,OK,Thread Group 1-91,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253077,2,PUT /character/7 ,200,OK,Thread Group 1-91,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939253079,1,DELETE /character/7,200,OK,Thread Group 1-91,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253081,3,GET /characters ,200,OK,Thread Group 1-92,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,1
+1766939253084,1,POST /character,201,Created,Thread Group 1-92,text,true,,275,221,1,1,http://localhost:3001/character,1,0,0
+1766939253085,1,GET /character/7 ,200,OK,Thread Group 1-92,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253086,2,PUT /character/7 ,200,OK,Thread Group 1-92,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939253088,1,DELETE /character/7,200,OK,Thread Group 1-92,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253091,2,GET /characters ,200,OK,Thread Group 1-93,text,true,,448,159,1,1,http://localhost:3001/characters,2,0,1
+1766939253093,2,POST /character,201,Created,Thread Group 1-93,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253095,1,GET /character/7 ,200,OK,Thread Group 1-93,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253096,1,PUT /character/7 ,200,OK,Thread Group 1-93,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939253097,1,DELETE /character/7,200,OK,Thread Group 1-93,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253102,3,GET /characters ,200,OK,Thread Group 1-94,text,true,,448,159,1,1,http://localhost:3001/characters,3,0,0
+1766939253105,2,POST /character,201,Created,Thread Group 1-94,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253107,1,GET /character/7 ,200,OK,Thread Group 1-94,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253108,1,PUT /character/7 ,200,OK,Thread Group 1-94,text,true,,270,222,1,1,http://localhost:3001/character/7,1,0,0
+1766939253109,1,DELETE /character/7,200,OK,Thread Group 1-94,text,true,,293,182,1,1,http://localhost:3001/character/7,1,0,0
+1766939253112,2,GET /characters ,200,OK,Thread Group 1-95,text,true,,448,159,1,1,http://localhost:3001/characters,2,0,0
+1766939253115,2,POST /character,201,Created,Thread Group 1-95,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253118,1,GET /character/7 ,200,OK,Thread Group 1-95,text,true,,270,160,1,1,http://localhost:3001/character/7,1,0,0
+1766939253120,2,PUT /character/7 ,200,OK,Thread Group 1-95,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939253122,2,DELETE /character/7,200,OK,Thread Group 1-95,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939253122,4,GET /characters ,200,OK,Thread Group 1-96,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939253126,2,POST /character,201,Created,Thread Group 1-96,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253128,2,GET /character/7 ,200,OK,Thread Group 1-96,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939253130,2,PUT /character/7 ,200,OK,Thread Group 1-96,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939253133,3,DELETE /character/7,200,OK,Thread Group 1-96,text,true,,293,182,2,2,http://localhost:3001/character/7,3,0,0
+1766939253132,4,GET /characters ,200,OK,Thread Group 1-97,text,true,,448,159,1,1,http://localhost:3001/characters,4,0,1
+1766939253136,2,POST /character,201,Created,Thread Group 1-97,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253139,2,GET /character/7 ,200,OK,Thread Group 1-97,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939253141,2,PUT /character/7 ,200,OK,Thread Group 1-97,text,true,,270,222,2,2,http://localhost:3001/character/7,2,0,0
+1766939253142,3,GET /characters ,200,OK,Thread Group 1-98,text,true,,484,159,2,2,http://localhost:3001/characters,3,0,1
+1766939253144,2,DELETE /character/7,200,OK,Thread Group 1-97,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939253146,2,POST /character,201,Created,Thread Group 1-98,text,true,,275,221,1,1,http://localhost:3001/character,2,0,0
+1766939253149,2,GET /character/7 ,200,OK,Thread Group 1-98,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939253151,3,PUT /character/7 ,200,OK,Thread Group 1-98,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939253152,4,GET /characters ,200,OK,Thread Group 1-99,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,2
+1766939253155,2,DELETE /character/7,200,OK,Thread Group 1-98,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939253156,3,POST /character,201,Created,Thread Group 1-99,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939253160,2,GET /character/7 ,200,OK,Thread Group 1-99,text,true,,270,160,2,2,http://localhost:3001/character/7,2,0,0
+1766939253162,3,PUT /character/7 ,200,OK,Thread Group 1-99,text,true,,270,222,2,2,http://localhost:3001/character/7,3,0,0
+1766939253161,4,GET /characters ,200,OK,Thread Group 1-100,text,true,,484,159,2,2,http://localhost:3001/characters,4,0,2
+1766939253165,2,DELETE /character/7,200,OK,Thread Group 1-99,text,true,,293,182,2,2,http://localhost:3001/character/7,2,0,0
+1766939253165,3,POST /character,201,Created,Thread Group 1-100,text,true,,275,221,1,1,http://localhost:3001/character,3,0,0
+1766939253169,2,GET /character/7 ,200,OK,Thread Group 1-100,text,true,,270,160,1,1,http://localhost:3001/character/7,2,0,0
+1766939253171,2,PUT /character/7 ,200,OK,Thread Group 1-100,text,true,,270,222,1,1,http://localhost:3001/character/7,2,0,0
+1766939253173,2,DELETE /character/7,200,OK,Thread Group 1-100,text,true,,293,182,1,1,http://localhost:3001/character/7,2,0,0
